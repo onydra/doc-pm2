@@ -11,7 +11,7 @@ redirect_from: "/plus/best-practices/metrics-glossary"
 
 This glossary is an exhaustive list of all metrics recorded by Keymetrics. Understand what a metric stands for and how it is computed will avoid you to draw conclusions too quickly.   
 
-Note that each metric always describes the state of a specific application on a specific server. You may find some cross server metrics on the dashboard, to suggest on which application you could use the profiling for example, but in most cases, metrics are application and server specific.
+Note that each metric is measured at the level of an app's process, on a specific server. If you find on the interface a metric associated with a whole app or server, it will correspond to the average (or median, depending on what's pertinent) of all the corresponding processes' metric values.
 
 ---
 
